@@ -1,3 +1,13 @@
+*{
+    font-family: Arial,sans-serif;
+}
+
+.tittle{
+    
+    font-family: 'Times New Roman', serif;
+}
+
 h1 {
+    font-family: Georgia,serif;
     color: #272343;
 }
