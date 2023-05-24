@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300&family=Merriweather+Sans&family=Roboto:wght@500&display=swap');
+
 *{
-    font-family: Arial,sans-serif;
+    font-family: 'Khula',sans-serif;
 }
 
-.tittle{
-    
-    font-family: 'Times New Roman', serif;
+.tittle{   
+    font-family: 'Merriweather Sans', serif;
 }
 
 h1 {
-    font-family: Georgia,serif;
+    font-family: 'Istok Web',sans-serif;
     color: #272343;
+}
+
+#contacto {
+    background-color: #bae8e8;
+}
+
+section#objetivo .tittle{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#foto{
+    border: 1pt solid #272343;
+    padding: 1.1rem;
+    margin-top:10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2px;
+}
+
+#map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
