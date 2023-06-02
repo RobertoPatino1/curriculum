@@ -80,6 +80,7 @@ a{
 .pic img.profile-pic{
     max-width: 50%;
     max-height: 50%;
+    margin: auto;
 }
 
 
@@ -99,6 +100,7 @@ main{
     background-color: #001e1d;
     width: 49%;
     height: 49%;
+    
 }
 #info-container{
     width: 99%;
@@ -131,7 +133,7 @@ main{
 }
 
 #foto{
-    border: 1pt solid #272343;
+    border: 1pt solid #abd1c6;
     /* width: 49%; */
 }
 
