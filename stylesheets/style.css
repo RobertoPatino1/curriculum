@@ -17,13 +17,16 @@
     font-family: 'Roboto', serif;
     color: #fffffe;
     background-color: #004643;
+    text-align: center;
     
 }
+
+
 
 .subtittle{
     font-family: 'Geologica', sans-serif;
     color: #001e1d;
-    background-color: #079790;
+    
     font-size: 150%;
 }
 
@@ -40,6 +43,11 @@ a{
     font-size: 1.2rem;
 }
 
+a:hover{
+    text-decoration:wavy;
+    color: #079790;
+}
+
 
 .header{
     position: sticky;
@@ -53,18 +61,14 @@ a{
 
 .header .flex .container-fluid{
     display: flex;
-    /* align-items: center; */
     flex-wrap: inherit;
     justify-content: space-between;
-    /* position: relative; */
-    /* padding: 0.5rem 2rem; */
     background-color: #004643;
 }
 
 .header .flex .navbar .container-fluid{
     background-color: #004643; 
     margin: auto;
-    /* flex-wrap: inherit; */
 }
 
 .header .flex .navbar .container-fluid a{
@@ -103,7 +107,7 @@ main{
 #pic{
     display:flex;
     resize:both;
-    background-color: #004643;
+    background-color: #004643d2;;
     width: 39%;
     height:fit-content
     
@@ -131,6 +135,7 @@ main{
 
 #habilidades{
     width: 39%;
+    height:fit-content;
 }
 
 #mapa{
@@ -142,3 +147,8 @@ main{
 }
 
 
+td{
+    height: 3rem;
+    overflow: hidden;
+
+}
