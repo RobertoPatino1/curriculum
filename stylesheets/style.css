@@ -140,8 +140,9 @@ main{
 }
 
 #map{
-    width: auto fit-content;
+    width: auto auto;
     height:auto;
+    max-width: min-content;
 }
 
 form {
