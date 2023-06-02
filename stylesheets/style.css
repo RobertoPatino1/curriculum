@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;600;700&display=swap');
 
@@ -31,7 +31,7 @@
 
 
 
-h1 {
+h1{
     font-family: 'Rubik',sans-serif;
     color: #0f3433;
     font-size:xx-large;
@@ -40,6 +40,12 @@ h1 {
 a{
     text-decoration:underline;
     font-size: 1.2rem;
+}
+
+td{
+    height: 3rem;
+    overflow: hidden;
+
 }
 
 a:hover{
@@ -58,15 +64,11 @@ a:hover{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
 }
 
-.header .flex .container-fluid{
+.header .flex .navbar .container-fluid{
     display: flex;
     flex-wrap: inherit;
     justify-content: space-between;
     background-color: #004643;
-}
-
-.header .flex .navbar .container-fluid{
-    background-color: #004643; 
     margin: auto;
 }
 
@@ -84,25 +86,27 @@ a:hover{
     color: #079790;
 }
 
-
-
-.pic img.profile-pic{
-    max-width: 50%;
-    max-height: 50%;
-    margin: auto;
-}
-
-
-
 main{
     display: flex;
     row-gap: 0.2rem;
     column-gap: 0.5rem;
     flex-wrap:wrap;
     justify-content:space-between;
-  }
+}
 
 
+
+.left-flex{
+    width: 39%;
+}
+
+.right-flex{
+    width: 59%;
+}
+
+#info-container{
+    width: 99%;
+}
 #pic{
     display:flex;
     resize:both;
@@ -111,37 +115,27 @@ main{
     height:fit-content
     
 }
-#info-container{
-    width: 99%;
-}
 
-#objetivo{
-    width: 59%;
-}
-
-#contacto {
-    width: 39%;
-}
-
-#experiencia{
-    width: 59%;
+#pic img.profile-pic{
+    max-width: 50%;
+    max-height: 50%;
+    margin:auto;
 }
 
 
-
-
-#habilidades{
-    width: 39%;
-    height:fit-content;
+#proyectos #repositorios{
+    display:flex ;
+    align-items: center;
 }
 
-#proyectos{
-    width: 59%;
+#proyectos #video{
+    display: flex;
+    align-items: center;
+    width: auto;
 }
 
-#mapa{
-    width: 39%;
-    height:auto;
+#proyectos #video iframe{
+    padding-left: 4rem;
 }
 
 #map{
@@ -149,78 +143,45 @@ main{
     height:auto;
 }
 
-#formulario{
-    width: 59%;
-}
-
-
-td{
-    height: 3rem;
-    overflow: hidden;
-
-}
-
 form {
     width: 80%;
     align-items: flex-end;
     row-gap:inherit;
-    /* height: fit-content; */
-  }
+}
   
-  label,
-  input {
+label,input {
     display: inline-block;
     text-align: left;
-  }
+}
   
-  label {
+label {
     width: 30%;
-    /* Positions the label text beside the input */
     text-align: left;
     height: 2.5rem;
-  }
+}
   
-  label+input {
+label+input {
     width: 30%;
-
-  }
+}
   
 
   
-  input+input {
-    float: right;
-  }
 
-  #formulario .buttons{
+#formulario .buttons{
     text-align:start;
     overflow: hidden;
-  }
+}
   
-  #formulario .buttons button{
+#formulario .buttons button{
     display:inline-block;
-    width:15%;
+    width:4.5rem;
     column-gap: 2rem;
-  }
+}
 
-  #formulario .buttons button:hover{
+#formulario .buttons button:hover{
     display:inline-block;
     width:15%;
     column-gap: 2rem;
     background-color:#004643d2;
     color: #e8e4e6;
-  }
-
-  #proyectos #repositorios{
-    /* display: flex; */
-    display:flex ;
-    
-  }
-
-  #proyectos #video{
-    display: flex;
-    width: max-content;
-  }
-
-  #proyectos #video iframe{
-    padding-left: 4rem;
-  }
+}
