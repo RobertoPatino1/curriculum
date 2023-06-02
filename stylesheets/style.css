@@ -109,6 +109,7 @@ main{
 }
 #pic{
     display:flex;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     background-color: #004643d2;
@@ -186,4 +187,20 @@ label+input {
     column-gap: 2rem;
     background-color:#004643d2;
     color: #e8e4e6;
+}
+
+
+
+/* RWD: media queries */
+@media only screen and (max-width: 620px) {
+    .left-flex #foto{
+        width: 0%;
+    }
+    .right-flex #objetivo{
+        width: 100%;
+    }
+    .left-flex #foto{
+        display: none;
+
+    }
 }
