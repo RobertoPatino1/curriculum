@@ -127,14 +127,16 @@ main{
     width: 59%;
 }
 
-#proyectos{
-    width: 59%;
-}
+
 
 
 #habilidades{
     width: 39%;
     height:fit-content;
+}
+
+#proyectos{
+    width: 59%;
 }
 
 #mapa{
@@ -206,4 +208,19 @@ form {
     column-gap: 2rem;
     background-color:#004643d2;
     color: #e8e4e6;
+  }
+
+  #proyectos #repositorios{
+    /* display: flex; */
+    display:flex ;
+    
+  }
+
+  #proyectos #video{
+    display: flex;
+    width: max-content;
+  }
+
+  #proyectos #video iframe{
+    padding-left: 4rem;
   }
