@@ -5,8 +5,21 @@
 
 *{
     font-family: 'Geologica', sans-serif;
+    box-sizing: border-box;
+    color:#001e1d;
     background-color: #e8e4e6;
-    color:#001e1d
+}
+
+
+
+.left-flex{
+    width: 39%;
+}
+
+.right-flex{
+    width: 59%;
+    padding-right: 1rem;
+    background-color: #e8e4e6;
 }
 
 .super-tittle{
@@ -22,7 +35,6 @@
 }
 
 
-
 .subtittle{
     font-family: 'Geologica', sans-serif;
     color: #001e1d;
@@ -30,6 +42,50 @@
 }
 
 
+.header {
+    position: sticky;
+    opacity:96%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+    
+}
+.header .flex{
+    display:flex;
+    background-color: #004643;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 1.2rem 2rem;
+    overflow:hidden;
+    flex-wrap: inherit;
+}
+
+.header .flex .navbar{
+    display:flex; 
+    width: 100%;
+    justify-content: space-between;
+    background-color: #004643;
+    align-items:center; 
+}
+
+
+.header .flex .navbar a{
+    background-color: #004643;
+    float: left;
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #e8e4e6;
+}
+
+.header .flex .navbar a:hover{
+    text-decoration: wavy;
+    color: #079790;
+}
 
 h1{
     font-family: 'Rubik',sans-serif;
@@ -42,49 +98,22 @@ a{
     font-size: 1.2rem;
 }
 
+
 td{
-    height: 3rem;
-    overflow: hidden;
+    width: auto;
+    height:1rem;
+    display: -webkit-box;
+    word-break: break-word; 
 
 }
-
+tr{
+    height: 3rem;
+}
 a:hover{
     text-decoration:wavy;
     color: #079790;
 }
 
-
-.header{
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100%;
-    background-color: #004643;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
-}
-
-.header .flex .navbar .container-fluid{
-    display: flex;
-    flex-wrap: inherit;
-    justify-content: space-between;
-    background-color: #004643;
-    margin: auto;
-}
-
-.header .flex .navbar .container-fluid a{
-    text-decoration:none;
-    text-align: center;
-    margin: 1.2rem 2rem;
-    font-size: 1.2rem;
-    color: #fffffe;
-    background-color: #004643; ;
-}
-
-.header .flex .navbar .container-fluid a:hover{
-    text-decoration:wavy;
-    color: #079790;
-}
 
 main{
     display: flex;
@@ -92,99 +121,96 @@ main{
     column-gap: 0.5rem;
     flex-wrap:wrap;
     justify-content:space-between;
+    background-color: #e8e4e6;
 }
 
 
 
-.left-flex{
-    width: 39%;
-}
-
-.right-flex{
-    width: 59%;
-}
-
-#info-container{
-    width: 99%;
-}
-#pic{
-    display:flex;
+.about-me{
+    display: flex;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #004643d2;
-    width: 39%;
-    height:fit-content
+    align-items: center;
+    justify-content:space-between;
+    background-color: #001e1d;
     
 }
 
-#pic img.profile-pic{
-    max-width: 50%;
-    max-height: 50%;
-    margin:auto;
+.about-me .image img{
+    width: 350px;
+}
+.about-me .image{
+    background-color: #001e1d;
+}
+
+.about-me .content{
+    padding-right: 2rem;
+    width: 65%;
+    background-color: #001e1d;
+}
+
+#objetivo p{
+    background-color: #001e1d;
+    color: #e8e4e6;
 }
 
 
-#proyectos #repositorios{
-    display:flex ;
-    align-items: center;
-}
 
-#proyectos #video{
+form {
     display: flex;
-    align-items: center;
-    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    min-width: 50%;
+    padding-right: 20%;
 }
 
-#proyectos #video iframe{
-    padding-left: 4rem;
+
+label,input {
+    display:inline;
+    word-break: break-word;
 }
+
+input{
+    width: 50%;
+}
+
+label {
+    width: 100%;
+    text-align: left;
+}
+  
+
 
 #map{
     width: 100%;
-    height:auto;
     position: relative;
 }
 
-form {
-    width: 80%;
-    align-items: flex-end;
-    row-gap:inherit;
-}
-  
-label,input {
-    display: inline-block;
-    text-align: left;
-}
-  
-label {
-    width: 30%;
-    text-align: left;
-    height: 2.5rem;
-}
-  
-label+input {
-    width: 30%;
-}
-  
-
-  
-
 #formulario .buttons{
+    display: flex;
+    gap: 1rem;
     text-align:start;
-    overflow: hidden;
 }
   
 #formulario .buttons button{
     display:inline-block;
-    column-gap: 2rem;
-    width:15%;
+    width:5rem;
+    min-width: 5rem;
+    
 }
 
 #formulario .buttons button:hover{
-    display:inline-block;
-    width:15%;
     column-gap: 2rem;
     background-color:#004643d2;
     color: #e8e4e6;
+}
+
+@media only screen and (max-width: 620px) {
+    .header .flex{
+      display: none;
+    }
+    .about-me .image{
+        display: none;
+    }
 }

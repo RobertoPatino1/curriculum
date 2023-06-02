@@ -7,19 +7,17 @@
     <meta name="descripcion" content="Curriculum Vitae Roberto Patiño">
     <meta name="keywords" content="Curriculum, Vitae, Profesional, Computer Science, Ingenieria, Espol">
     <meta name="author" content="Roberto Patiño">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   
   <body>
     <header class = "header">
       <section class = "flex">
         <nav class = "navbar">
-          <div class = "container-fluid">
-            <a href="#contacto">Información de contacto</a>
-            <a href="#objetivo">Objetivo profesional</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#proyectos">Proyectos personales</a>
-          </div>
-
+          <a href="#contacto">Información de contacto</a>
+          <a href="#objetivo">Objetivo profesional</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#proyectos">Proyectos personales</a>
         </nav>
       </section>
     </header>
@@ -27,26 +25,32 @@
 
 
     <main>
-    <section id = "info-container">
+    <div id = "head-container">
       <h1 class="super-tittle"> Roberto Patiño Salvatierra </h1>
       <div class = "top-subtittle">
         <h3 class = "subtittle">Estudiante de Ingeniería en Computación</h3>
       </div>  
-    </section>
+    </div>
     
-    <section class = "left-flex" id = "pic">
-      <img id = "foto" src="assets/resume_pic.jpeg" alt="Foto de perfil" class="profile-pic">
+
+
+    <section class  = "about-me">
+      <div class = "image">
+        <img src="assets/resume_pic.jpeg" alt="Foto de perfil">
+      </div>
+      <div class = "content" id = "objetivo">
+        <h2 class="tittle">Objetivo profesional</h2>
+        <p>Estudiante de ingeniería en ciencias de la computación apasionado<br> 
+          por la ciencia de datos, ciberseguridad, machine learning y Linux buscando <br>
+          oportunidades y desafíos para ampliar mis horizontes de conocimientos.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </section>
 
-    <section class = "right-flex" id = "objetivo">
-      <h2 class="tittle">Objetivo profesional</h2>
-      <p>Estudiante de ingeniería en ciencias de la computación apasionado<br> 
-        por la ciencia de datos, ciberseguridad, machine learning y Linux buscando <br>
-        oportunidades y desafíos para ampliar mis horizontes de conocimientos.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
+
+
 
     <section class = "left-flex" id = "contacto">
       <h2 class = "tittle">Información de contacto</h2>
@@ -64,7 +68,7 @@
           <td><a href="https://github.com/RobertoPatino1" target="_blank">RobertoPatino1</a></td>
         </tr>
         <tr>
-          <td><b>LinkedIn</b></td>
+          <td><b>LinkedIn:</b></td>
           <td><a href="linkedin.com/in/roberto-andres-patino" target="_blank">Roberto Patiño</a></td>
         </tr>
       </table>
@@ -135,17 +139,16 @@
     </div>
 
     <div class = "right-flex" id = "formulario">
-      <h2 class="tittle">Contactame!</h2>
-      <p>Llena el formulario de contacto y me comunicaré contigo lo antes posible</p>
+      <h2 class="tittle">Contáctame!</h2>
+      <p>Llena el formulario de contacto y me comunicaré contigo lo antes posible.</p>
       <form>
-        <label for="name">Nombre completo: </label>
-        <input type="text" id="name" name="name"><br>
-        <label for="phone">Número de teléfono: </label>
-        <input type="text" id="phone" name="phone"><br>
-        <label for="email">Correo: </label>
-        <input type="email" id="email" name="email"><br>
-        <!-- <label for="suggestions">Sugerencias: </label>
-        <textarea id="suggestions" name="suggestions" rows="10" cols="50"></textarea><br> -->
+          <label for="name">Nombre completo: </label>
+          <input type="text" id="name" name="name"><br>
+          <label for="phone">Número de teléfono: </label>
+          <input type="text" id="phone" name="phone"><br>
+          <label for="email">Correo electrónico: </label>
+          <input type="email" id="email" name="email"><br>
+
         <div class = "buttons">
           <button type="submit" name = "submit">Enviar</button>
           <button type="reset" name="reset">Reiniciar</button>
