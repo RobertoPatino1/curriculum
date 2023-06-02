@@ -109,8 +109,9 @@ main{
 }
 #pic{
     display:flex;
-    resize:both;
-    background-color: #004643d2;;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #004643d2;
     width: 39%;
     height:fit-content
     
