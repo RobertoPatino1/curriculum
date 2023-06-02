@@ -26,7 +26,6 @@
 .subtittle{
     font-family: 'Geologica', sans-serif;
     color: #001e1d;
-    
     font-size: 150%;
 }
 
@@ -142,6 +141,10 @@ main{
     width: 39%;
 }
 
+#map{
+    width: auto fit-content
+}
+
 #formulario{
     width: 59%;
 }
@@ -152,3 +155,53 @@ td{
     overflow: hidden;
 
 }
+
+form {
+    width: 80%;
+    align-items: flex-end;
+    row-gap:inherit;
+    /* height: fit-content; */
+  }
+  
+  label,
+  input {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    width: 30%;
+    /* Positions the label text beside the input */
+    text-align: left;
+    height: 2.5rem;
+  }
+  
+  label+input {
+    width: 30%;
+
+  }
+  
+
+  
+  input+input {
+    float: right;
+  }
+
+  #formulario .buttons{
+    text-align:start;
+    overflow: hidden;
+  }
+  
+  #formulario .buttons button{
+    display:inline-block;
+    width:15%;
+    column-gap: 2rem;
+  }
+
+  #formulario .buttons button:hover{
+    display:inline-block;
+    width:15%;
+    column-gap: 2rem;
+    background-color:#004643d2;
+    color: #e8e4e6;
+  }
