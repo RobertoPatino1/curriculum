@@ -213,4 +213,10 @@ label {
     .about-me .image{
         display: none;
     }
+    .left-flex{
+        width: 100%;
+    }
+    .right-flex{
+        width: 100%;
+    }
 }
