@@ -139,10 +139,12 @@ main{
 
 #mapa{
     width: 39%;
+    height:auto;
 }
 
 #map{
-    width: auto fit-content
+    width: auto fit-content;
+    height:auto;
 }
 
 #formulario{
