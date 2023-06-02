@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300&family=Merriweather+Sans&family=Roboto:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;600;700&display=swap');
+
 
 *{
-    font-family: 'Khula',sans-serif;
+    font-family: 'Geologica', sans-serif;
 }
 
 .tittle{   
-    font-family: 'Merriweather Sans', serif;
+    font-family: 'Roboto', serif;
 }
 
 h1 {
-    font-family: 'Istok Web',sans-serif;
+    font-family: 'Rubik',sans-serif;
     color: #272343;
 }
+
 
 #contacto {
     background-color: #bae8e8;
