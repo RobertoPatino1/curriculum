@@ -27,9 +27,47 @@ h1 {
     color: #0f3433;
 }
 
-img.profile-pic{
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100%;
+    background-color: #004643;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+}
+
+.header .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.1rem 2rem;
+    /* background-color: #004643; */
+}
+
+.header .flex .navbar{
+    /* background-color: #004643;  */
+}
+
+.header .flex .navbar a{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    color: #fffffe
+}
+
+
+.pic-container{
+    position:static;
+}
+
+.pic-container img.profile-pic{
     max-width: 25%;
     max-height: 10%;
+    /* position: relative; */
+    top: 0px;
+    left: 0px;
 }
 
 #contacto {
