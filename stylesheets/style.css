@@ -19,6 +19,10 @@ h1 {
     color: #0f3433;
 }
 
+img.profile-pic{
+    max-width: 25%;
+    max-height: 10%;
+}
 
 #contacto {
     background-color: #bae8e8;
@@ -35,7 +39,6 @@ a{
 
 #foto{
     border: 1pt solid #272343;
-    padding: 1.1rem;
     margin-top:10px;
     margin-left: 25%;
     margin-right: 25%;
