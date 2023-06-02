@@ -191,7 +191,7 @@ label+input {
 
 
 
-/* RWD: media queries
+/* RWD: media queries */
 @media only screen and (max-width: 620px) {
     .left-flex #foto{
         width: 0%;
@@ -203,4 +203,4 @@ label+input {
         display: none;
 
     }
-} */
+}
