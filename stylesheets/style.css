@@ -5,15 +5,18 @@
 
 *{
     font-family: 'Geologica', sans-serif;
+    background-color: #e8e4e6;
+    color:#001e1d
 }
 
 .tittle{   
     font-family: 'Roboto', serif;
+    color: #0f3433;
 }
 
 h1 {
     font-family: 'Rubik',sans-serif;
-    color: #272343;
+    color: #0f3433;
 }
 
 
@@ -22,7 +25,7 @@ h1 {
 }
 
 section#objetivo .tittle{
-    color: red;
+
 }
 
 a{
