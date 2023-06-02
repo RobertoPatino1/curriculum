@@ -191,12 +191,3 @@ label+input {
 
 
 
-/* RWD: media queries
-@media only screen and (max-width: 720px) {
-    .left-flex #foto{
-        width: 0%;
-    }
-    .left-flex #foto{
-        display: none;
-    }
-} */
