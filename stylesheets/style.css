@@ -27,6 +27,11 @@ h1 {
     color: #0f3433;
 }
 
+a{
+    text-decoration:underline;
+    font-size: 1.2rem;
+}
+
 
 .header{
     position: sticky;
@@ -43,56 +48,72 @@ h1 {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding: 1.1rem 2rem;
-    /* background-color: #004643; */
+    padding: 0.5rem 2rem;
+    background-color: #004643;
 }
 
 .header .flex .navbar{
-    /* background-color: #004643;  */
+    background-color: #004643; 
 }
 
 .header .flex .navbar a{
-    margin-left: 2rem;
+    text-decoration:none;
+    margin: 3.5rem;
     font-size: 1.2rem;
-    color: #fffffe
+    color: #fffffe;
+    background-color: #004643; ;
 }
 
 
-.pic-container{
-    position:static;
-}
 
 .pic-container img.profile-pic{
     max-width: 25%;
     max-height: 10%;
-    /* position: relative; */
-    top: 0px;
-    left: 0px;
+}
+
+
+
+main{
+    display: flex;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    flex-wrap:wrap;
+    justify-content:space-between;
+  }
+
+
+
+#info-container{
+    width: 49%;
+}
+
+#objetivo{
+    height: 40%;
+    width: 49%;
 }
 
 #contacto {
-    background-color: #bae8e8;
+    width: 49%;
 }
 
-section#objetivo .tittle{
-
+#proyectos{
+    width: 49%;
 }
 
-a{
-    text-decoration: none;
-    font-size: 1.2rem;
+
+#habilidades{
+    width: 49%;
+}
+
+#mapa{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 49%;
 }
 
 #foto{
     border: 1pt solid #272343;
-    margin-top:10px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 2px;
+    width: 49%;
 }
 
-#map{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
