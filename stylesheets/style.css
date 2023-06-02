@@ -215,6 +215,11 @@ label {
     }
     .about-me .content{
         width: 100%;
+        padding-right: 0;
+    }
+    .about-me .content p{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .left-flex{
         width: 100%;
