@@ -177,8 +177,8 @@ label+input {
   
 #formulario .buttons button{
     display:inline-block;
-    width:4.5rem;
     column-gap: 2rem;
+    width:15%;
 }
 
 #formulario .buttons button:hover{
@@ -188,6 +188,3 @@ label+input {
     background-color:#004643d2;
     color: #e8e4e6;
 }
-
-
-
