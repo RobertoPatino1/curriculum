@@ -9,9 +9,15 @@
     color:#001e1d
 }
 
+.super-tittle{
+    color: #0f3433;
+}
+
 .tittle{   
     font-family: 'Roboto', serif;
-    color: #0f3433;
+    color: #fffffe;
+    background-color: #004643;
+    
 }
 
 .subtittle{
@@ -97,9 +103,9 @@ main{
 #pic{
     display:flex;
     resize:both;
-    background-color: #001e1d;
-    width: 49%;
-    height: 49%;
+    background-color: #004643;
+    width: 39%;
+    height:fit-content
     
 }
 #info-container{
@@ -107,22 +113,24 @@ main{
 }
 
 #objetivo{
-    /* padding-right: 5%; */
-    height: 40%;
-    width: 49%;
+    width: 59%;
 }
 
 #contacto {
-    width: 49%;
+    width: 39%;
+}
+
+#experiencia{
+    width: 59%;
 }
 
 #proyectos{
-    width: 49%;
+    width: 59%;
 }
 
 
 #habilidades{
-    width: 49%;
+    width: 39%;
 }
 
 #mapa{
@@ -132,8 +140,4 @@ main{
     width: 49%;
 }
 
-#foto{
-    border: 1pt solid #abd1c6;
-    /* width: 49%; */
-}
 
